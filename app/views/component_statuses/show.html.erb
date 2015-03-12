@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @component_status.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @component_status.description %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @component_status.color %>
+</p>
+
+<%= link_to 'Edit', edit_component_status_path(@component_status) %> |
+<%= link_to 'Back', component_statuses_path %>
